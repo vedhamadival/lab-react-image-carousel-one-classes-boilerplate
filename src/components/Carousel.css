@@ -1,1 +1,44 @@
 /* write your carousel css in this file */
+
+#carousel{
+    height:700px;
+    width:60%;
+    /* border:1px solid black; */
+}
+
+#innerCarousel{
+    display: flex;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#left-btn , #right-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+
+#centerText{
+    width: 90%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    /* justify-content: center; */
+}
+
+h1{
+    font-size: 100px;
+    background-color: rgba(128, 128, 128, 0.316);
+}
+p{
+    font-size: 45px;
+    background-color: rgba(128, 128, 128, 0.316);
+}
